@@ -60,3 +60,12 @@ def delete_todo(todo_id: int):
             return {"message": "Todo deleted"}
     return {"message": "Todo not found"}
 
+#TODO TODO TODO hier Funktion fertig schreiben!!!
+@app.put("/todos/{todo_id}")
+def update_todo(todo_id: int, updated_todo: Todo):
+    # finde das Todo mit der id
+    # ersetze title und done mit den neuen Werten
+    # speichern
+    # gib das aktualisierte Todo zurück
+    pass
+
