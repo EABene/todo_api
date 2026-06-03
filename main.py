@@ -33,7 +33,7 @@ def load_todos():
 todos = load_todos() # JSON laden
 
 
-# CRUD = Create, Read, Update, Delete, Persistenz--Endpoints
+# CRUD = Create, Read, Update, Delete ++Persistenz--Endpoints
 
 # FastAPI Funktionen
 
